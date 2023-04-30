@@ -30,11 +30,11 @@ fn main() {
 
 	
 	for n in 0..( size * size ) {
-		a[n] = rng.gen_range( 0.0..99999.99 );
+		a[n] = rng.gen_range( 0.01..99999.99 );
 	}
 
 	for n in 0..size {
-		b[n] = rng.gen_range( 0.0..99999.99 );
+		b[n] = rng.gen_range( 0.01..99999.99 );
 	}
 
 	if size < 10 {
