@@ -1,3 +1,8 @@
+-original C implementation
+```
+cd gauss
+gcc gauss.c
+```
 -Rust implementation
 ```
 cd gausst
