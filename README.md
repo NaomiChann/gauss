@@ -1,5 +1,6 @@
 # Gaussian Elimination
 `Anna Gabriele Marques de Oliveira` `Naomi Celestino Ribes`  
+- [PDF](../master/gauss.pdf)    
 - [Original C implementation](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp)
 ```
 cd gauss
