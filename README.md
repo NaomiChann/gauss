@@ -1,4 +1,6 @@
--original C implementation
+# Gaussian Elimination
+`Anna Gabriele Marques de Oliveira` `Naomi Celestino Ribes`
+[Original C implementation](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp)
 ```
 cd gauss
 gcc gauss.c

@@ -37,7 +37,7 @@ fn main() {
 
 fn parameters( args: Vec<String>, seed: &mut u64 ) -> usize {
 	let n: usize;
-	if args.len() == 3 {
+	if args.len() >= 3 {
 		*seed = args[2].parse::<u64>().unwrap();
 		println!( "Seed = {}", seed );
 	}
@@ -46,7 +46,7 @@ fn parameters( args: Vec<String>, seed: &mut u64 ) -> usize {
 		if n < 1 || n > MAXN {
 			panic!( "{} is out of range.", n );
 		}
-	} else { // exit on poor argument parsing
+	} else {
 		panic!( "Usage: <matrix_dimension> [seed]" );
 	}
 
